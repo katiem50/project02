@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Part 2</title>
+  <link rel="stylesheet" href="flexslider/flexslider.css">
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+<div class="container">
+  <h1>Spring Break 2016</h1>
+</div>
+
+<div class= "words">
+<p> Over spring break, my best friend and I took a road trip up to New England.</p>
+<p>We visited many historical sites in four states, icluding New York, Massachusetts, New Hampshire, and Maine.</p>
+</div>
+
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="/Users/KatieMuir/Documents/sb/IMG_2978.jpg" />
+    </li>
+    <li>
+      <img src="/Users/KatieMuir/Documents/sb/IMG_3269.jpg" />
+    </li>
+    <li>
+      <img src="/Users/KatieMuir/Documents/sb/IMG_2949.jpg" />
+    </li>
+    <li>
+      <img src="/Users/KatieMuir/Documents/sb/IMG_3257.jpg" />
+    </li>
+    <li>
+      <img src="/Users/KatieMuir/Documents/sb/IMG_2984.jpg" />
+    </li>
+    <li>
+      <img src="/Users/KatieMuir/Documents/sb/IMG_3159.jpg" />
+    </li>
+    <li>
+      <img src="/Users/KatieMuir/Documents/sb/IMG_3242.jpg" />
+    </li>
+  </ul>
+</div>
+
+
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+<script src="flexslider/jquery.flexslider.js"></script>
+
+<script>// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
+
+</body>
+</html>

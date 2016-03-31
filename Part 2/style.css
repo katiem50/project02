@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:700italic);
+
+body{
+  background-color: #ddccff;
+
+}
+
+.words{
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+}
+
+.flexslider{
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 525px;
+
+}
+
+.container {
+  font-family: 'Playfair Display', serif;
+  background:  #ffff99;
+  color: black;
+  width: 200px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align:center;
+  border-radius: 20px;
+}
